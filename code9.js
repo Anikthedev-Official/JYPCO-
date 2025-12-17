@@ -63,7 +63,7 @@ gdjs.LEVEL9Code.mapOfGDgdjs_9546LEVEL9Code_9546GDPlayerObjects1Objects = Hashtab
 gdjs.LEVEL9Code.mapOfGDgdjs_9546LEVEL9Code_9546GDNewSprite2Objects1Objects = Hashtable.newFrom({"NewSprite2": gdjs.LEVEL9Code.GDNewSprite2Objects1});
 gdjs.LEVEL9Code.mapOfGDgdjs_9546LEVEL9Code_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.LEVEL9Code.GDPlayerObjects1});
 gdjs.LEVEL9Code.mapOfGDgdjs_9546LEVEL9Code_9546GDNewSprite3Objects1Objects = Hashtable.newFrom({"NewSprite3": gdjs.LEVEL9Code.GDNewSprite3Objects1});
-gdjs.LEVEL9Code.asyncCallback22482452 = function (runtimeScene, asyncObjectsList) {
+gdjs.LEVEL9Code.asyncCallback22651684 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LEVEL9Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.LEVEL9Code.GDPlayerObjects2);
 
@@ -73,7 +73,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.LEVEL9Code.GDPlayerOb
 }
 gdjs.LEVEL9Code.localVariables.length = 0;
 }
-gdjs.LEVEL9Code.idToCallbackMap.set(22482452, gdjs.LEVEL9Code.asyncCallback22482452);
+gdjs.LEVEL9Code.idToCallbackMap.set(22651684, gdjs.LEVEL9Code.asyncCallback22651684);
 gdjs.LEVEL9Code.eventsList0 = function(runtimeScene) {
 
 {
@@ -84,7 +84,7 @@ gdjs.LEVEL9Code.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LEVEL9Code.localVariables);
 for (const obj of gdjs.LEVEL9Code.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.LEVEL9Code.asyncCallback22482452(runtimeScene, asyncObjectsList)), 22482452, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.LEVEL9Code.asyncCallback22651684(runtimeScene, asyncObjectsList)), 22651684, asyncObjectsList);
 }
 }
 
@@ -361,7 +361,7 @@ for (var i = 0, k = 0, l = gdjs.LEVEL9Code.GDPlayerObjects1.length;i<l;++i) {
 gdjs.LEVEL9Code.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14724620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22648796);
 }
 }
 }

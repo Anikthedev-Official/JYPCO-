@@ -35,7 +35,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.TEST_32NAVIGATIONCode.mapOfGDgdjs_9546TEST_959532NAVIGATIONCode_9546GDNewSpriteObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "TEST NAVIGATION", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "TESTX", false);
 }
 }
 

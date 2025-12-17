@@ -15,6 +15,8 @@ gdjs.mENUCode.GDTinyBlueButtonObjects1= [];
 gdjs.mENUCode.GDTinyBlueButtonObjects2= [];
 gdjs.mENUCode.GDSmallBlueButton2Objects1= [];
 gdjs.mENUCode.GDSmallBlueButton2Objects2= [];
+gdjs.mENUCode.GDSplashTextObjects1= [];
+gdjs.mENUCode.GDSplashTextObjects2= [];
 gdjs.mENUCode.GDHealthBarBoxObjects1= [];
 gdjs.mENUCode.GDHealthBarBoxObjects2= [];
 gdjs.mENUCode.GDHealthBarObjects1= [];
@@ -111,6 +113,16 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
 };
 
 gdjs.mENUCode.func = function(runtimeScene) {
@@ -130,6 +142,8 @@ gdjs.mENUCode.GDTinyBlueButtonObjects1.length = 0;
 gdjs.mENUCode.GDTinyBlueButtonObjects2.length = 0;
 gdjs.mENUCode.GDSmallBlueButton2Objects1.length = 0;
 gdjs.mENUCode.GDSmallBlueButton2Objects2.length = 0;
+gdjs.mENUCode.GDSplashTextObjects1.length = 0;
+gdjs.mENUCode.GDSplashTextObjects2.length = 0;
 gdjs.mENUCode.GDHealthBarBoxObjects1.length = 0;
 gdjs.mENUCode.GDHealthBarBoxObjects2.length = 0;
 gdjs.mENUCode.GDHealthBarObjects1.length = 0;
@@ -156,6 +170,8 @@ gdjs.mENUCode.GDTinyBlueButtonObjects1.length = 0;
 gdjs.mENUCode.GDTinyBlueButtonObjects2.length = 0;
 gdjs.mENUCode.GDSmallBlueButton2Objects1.length = 0;
 gdjs.mENUCode.GDSmallBlueButton2Objects2.length = 0;
+gdjs.mENUCode.GDSplashTextObjects1.length = 0;
+gdjs.mENUCode.GDSplashTextObjects2.length = 0;
 gdjs.mENUCode.GDHealthBarBoxObjects1.length = 0;
 gdjs.mENUCode.GDHealthBarBoxObjects2.length = 0;
 gdjs.mENUCode.GDHealthBarObjects1.length = 0;

@@ -267,7 +267,7 @@ for (var i = 0, k = 0, l = gdjs.TESTXCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.TESTXCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23000028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23160892);
 }
 }
 }

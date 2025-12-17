@@ -37,13 +37,13 @@ gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDPlayerObjects1O
 gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDPlatform_95959595Ground2Objects1Objects = Hashtable.newFrom({"Platform_Ground2": gdjs.Game_32SceneCode.GDPlatform_9595Ground2Objects1});
 gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.Game_32SceneCode.GDPlayerObjects1});
 gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDPortal_95959595TopObjects1Objects = Hashtable.newFrom({"Portal_Top": gdjs.Game_32SceneCode.GDPortal_9595TopObjects1});
-gdjs.Game_32SceneCode.asyncCallback21728372 = function (runtimeScene, asyncObjectsList) {
+gdjs.Game_32SceneCode.asyncCallback21877612 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Game_32SceneCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LEVEL2", false);
 }
 gdjs.Game_32SceneCode.localVariables.length = 0;
 }
-gdjs.Game_32SceneCode.idToCallbackMap.set(21728372, gdjs.Game_32SceneCode.asyncCallback21728372);
+gdjs.Game_32SceneCode.idToCallbackMap.set(21877612, gdjs.Game_32SceneCode.asyncCallback21877612);
 gdjs.Game_32SceneCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -53,7 +53,7 @@ gdjs.Game_32SceneCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Game_32SceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Game_32SceneCode.asyncCallback21728372(runtimeScene, asyncObjectsList)), 21728372, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Game_32SceneCode.asyncCallback21877612(runtimeScene, asyncObjectsList)), 21877612, asyncObjectsList);
 }
 }
 
