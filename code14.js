@@ -43,6 +43,22 @@ gdjs.TESTXCode.GDPortal_9595MiddleObjects1= [];
 gdjs.TESTXCode.GDPortal_9595MiddleObjects2= [];
 gdjs.TESTXCode.GDPortal_9595TopObjects1= [];
 gdjs.TESTXCode.GDPortal_9595TopObjects2= [];
+gdjs.TESTXCode.GDNewSprite2Objects1= [];
+gdjs.TESTXCode.GDNewSprite2Objects2= [];
+gdjs.TESTXCode.GDTinyGreyButtonObjects1= [];
+gdjs.TESTXCode.GDTinyGreyButtonObjects2= [];
+gdjs.TESTXCode.GDTinyGreyButton2Objects1= [];
+gdjs.TESTXCode.GDTinyGreyButton2Objects2= [];
+gdjs.TESTXCode.GDNewText4Objects1= [];
+gdjs.TESTXCode.GDNewText4Objects2= [];
+gdjs.TESTXCode.GDArmandObjects1= [];
+gdjs.TESTXCode.GDArmandObjects2= [];
+gdjs.TESTXCode.GDArmand2Objects1= [];
+gdjs.TESTXCode.GDArmand2Objects2= [];
+gdjs.TESTXCode.GDNewText5Objects1= [];
+gdjs.TESTXCode.GDNewText5Objects2= [];
+gdjs.TESTXCode.GDATMOZObjects1= [];
+gdjs.TESTXCode.GDATMOZObjects2= [];
 
 
 gdjs.TESTXCode.mapOfGDgdjs_9546TESTXCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TESTXCode.GDPlayerObjects1});
@@ -267,7 +283,7 @@ for (var i = 0, k = 0, l = gdjs.TESTXCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.TESTXCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23160892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25001676);
 }
 }
 }
@@ -516,6 +532,22 @@ gdjs.TESTXCode.GDPortal_9595MiddleObjects1.length = 0;
 gdjs.TESTXCode.GDPortal_9595MiddleObjects2.length = 0;
 gdjs.TESTXCode.GDPortal_9595TopObjects1.length = 0;
 gdjs.TESTXCode.GDPortal_9595TopObjects2.length = 0;
+gdjs.TESTXCode.GDNewSprite2Objects1.length = 0;
+gdjs.TESTXCode.GDNewSprite2Objects2.length = 0;
+gdjs.TESTXCode.GDTinyGreyButtonObjects1.length = 0;
+gdjs.TESTXCode.GDTinyGreyButtonObjects2.length = 0;
+gdjs.TESTXCode.GDTinyGreyButton2Objects1.length = 0;
+gdjs.TESTXCode.GDTinyGreyButton2Objects2.length = 0;
+gdjs.TESTXCode.GDNewText4Objects1.length = 0;
+gdjs.TESTXCode.GDNewText4Objects2.length = 0;
+gdjs.TESTXCode.GDArmandObjects1.length = 0;
+gdjs.TESTXCode.GDArmandObjects2.length = 0;
+gdjs.TESTXCode.GDArmand2Objects1.length = 0;
+gdjs.TESTXCode.GDArmand2Objects2.length = 0;
+gdjs.TESTXCode.GDNewText5Objects1.length = 0;
+gdjs.TESTXCode.GDNewText5Objects2.length = 0;
+gdjs.TESTXCode.GDATMOZObjects1.length = 0;
+gdjs.TESTXCode.GDATMOZObjects2.length = 0;
 
 gdjs.TESTXCode.eventsList0(runtimeScene);
 gdjs.TESTXCode.GDPlayerObjects1.length = 0;
@@ -560,6 +592,22 @@ gdjs.TESTXCode.GDPortal_9595MiddleObjects1.length = 0;
 gdjs.TESTXCode.GDPortal_9595MiddleObjects2.length = 0;
 gdjs.TESTXCode.GDPortal_9595TopObjects1.length = 0;
 gdjs.TESTXCode.GDPortal_9595TopObjects2.length = 0;
+gdjs.TESTXCode.GDNewSprite2Objects1.length = 0;
+gdjs.TESTXCode.GDNewSprite2Objects2.length = 0;
+gdjs.TESTXCode.GDTinyGreyButtonObjects1.length = 0;
+gdjs.TESTXCode.GDTinyGreyButtonObjects2.length = 0;
+gdjs.TESTXCode.GDTinyGreyButton2Objects1.length = 0;
+gdjs.TESTXCode.GDTinyGreyButton2Objects2.length = 0;
+gdjs.TESTXCode.GDNewText4Objects1.length = 0;
+gdjs.TESTXCode.GDNewText4Objects2.length = 0;
+gdjs.TESTXCode.GDArmandObjects1.length = 0;
+gdjs.TESTXCode.GDArmandObjects2.length = 0;
+gdjs.TESTXCode.GDArmand2Objects1.length = 0;
+gdjs.TESTXCode.GDArmand2Objects2.length = 0;
+gdjs.TESTXCode.GDNewText5Objects1.length = 0;
+gdjs.TESTXCode.GDNewText5Objects2.length = 0;
+gdjs.TESTXCode.GDATMOZObjects1.length = 0;
+gdjs.TESTXCode.GDATMOZObjects2.length = 0;
 
 
 return;
